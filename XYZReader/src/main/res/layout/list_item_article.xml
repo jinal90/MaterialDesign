@@ -20,7 +20,7 @@
             android:id="@+id/thumbnail"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@color/photo_placeholder" />
+            android:background="@color/primary_dark_trans" />
 
         <TextView
             android:id="@+id/article_title"
@@ -31,7 +31,7 @@
             android:paddingTop="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="4dp"
-            android:textColor="@color/ltgray"
+            android:textColor="@android:color/black"
             android:ellipsize="end"
             android:maxLines="4" />
 
