@@ -63,14 +63,4 @@
             android:scrollbarStyle="outsideOverlay" />
     </android.support.v4.widget.SwipeRefreshLayout>
 
-
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:elevation="12dp"
-        android:src="@drawable/ic_share"
-        app:elevation="12dp"
-        app:layout_anchor="@id/main.appbar"
-        app:layout_anchorGravity="bottom|right|end" />
 </android.support.design.widget.CoordinatorLayout>
