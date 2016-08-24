@@ -1,10 +1,10 @@
-<com.example.xyzreader.ui.DrawInsetsFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/draw_insets_frame_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.xyzreader.ui.ObservableScrollView
+    <ScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -32,7 +32,7 @@
 
             </FrameLayout>
 
-            <com.example.xyzreader.ui.MaxWidthLinearLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -88,9 +88,9 @@
                     android:textColorLink="@color/accent"
                     android:textSize="@dimen/detail_body_text_size" />
 
-            </com.example.xyzreader.ui.MaxWidthLinearLayout>
+            </LinearLayout>
         </FrameLayout>
-    </com.example.xyzreader.ui.ObservableScrollView>
+    </ScrollView>
 
 
     <android.support.design.widget.FloatingActionButton
@@ -102,4 +102,4 @@
         android:elevation="2dp"
         android:src="@drawable/ic_share" />
 
-</com.example.xyzreader.ui.DrawInsetsFrameLayout>
+</FrameLayout>
